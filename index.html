@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger Menu</title>
+    <!-- css librerias -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./assets/svg/2.svg" type="image/x-icon">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- styles -->
+    <link rel="stylesheet" href="./assets/styles/root.css">
+    <link rel="stylesheet" href="./assets/styles/hamburger-menu.css">
+    <link rel="stylesheet" href="./assets/styles/header.css
+    ">
+</head>
+<body>
+    <header class="header">
+        <!-- Desktop menu -->
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="index.html" class="logo__link">
+                    <p class="logo__texto">SofiDev</p>
+                </a>
+            </div>
+        <nav class="header__nav__menu">
+            <ul>
+                <li class="menu__list"><a href="#" class="header__menu-link">Home</a></li>
+                <li class="menu__list"><a href="#" class="header__menu-link">About me</a></li>
+                <li class="menu__list"><a href="#" class="header__menu-link">skills</a></li>
+                <li class="menu__list"><a href="#" class="header__menu-link">Hobbies</a></li>
+                <li class="menu__list"><a href="#" class="header__menu-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header__social__media">
+            <a class="header__icon__link" href="#">
+                <i class="fa-brands fa-linkedin fa-beat"></i>
+            </a>
+            <a class="header__icon__link" href="#">
+                <i class="fa-brands fa-github-alt fa-beat"></i>
+            </a>
+            <a class="header__icon__link" href="#">
+                <i class="fa-solid fa-envelope fa-beat"></i>
+            </a>
+        </div>
+    </div>
+
+
+    </header>
+    <!-- Mobile menu (hamburger) -->
+    <button class="panel-btn hamburger hamburger--emphatic" type="button" aria-label="menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner" id="hamburguesa"></span>
+        </span>
+    </button>
+    <!-- Side panel -->
+    <aside id="panel" class="panel">
+        <nav class="menu-hamburger">
+            <ul>
+                <li class="menu__list__hamburger"><a href="#" class="header__menu-link">Home</a></li>
+                <li class="menu__list__hamburger"><a href="#" class="header__menu-link">About me</a> </li>
+                <li class="menu__list__hamburger"><a href="#" class="header__menu-link">skills</a></li>
+                <li class="menu__list__hamburger"><a href="#" class="header__menu-link">Hobbies</a></li>
+                <li class="menu__list__hamburger"><a href="#" class="header__menu-link">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <!-- Insert your site content -->
+    </main>
+                
+    <script type="module" src="./js/modules.js"></script>
+</body>
+</html>
