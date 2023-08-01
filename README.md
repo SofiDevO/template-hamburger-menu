@@ -1,5 +1,6 @@
 # template-hamburger-menu
-Template to implement hamburger menu in your site. the code is full responsive.
+![image](./assets/img/2_170_40.png)
+Template to implement hamburger menu in your site. The code is full responsive.
 
 ## You can just customize  it as you want 💙
 
