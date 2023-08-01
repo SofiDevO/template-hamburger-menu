@@ -37,15 +37,21 @@
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     justify-content: center;
     align-items: center;
-    /* __________Panel Animation____________ */
     transition: transform .3s ease;
-    /* You can choose the animation  by changing for one of this clases */
-    /*  transform: translate(100%, 0); */
-    /* transform: translate(0, -100%); */
-    /* transform: translate(-100%, 0); */
-    /* transform: translate(0, 100%); */
-    /* ____________________________________ */
    
+/* You can choose the animation  by changing for one of these, ex. "transform: translate(100%, 0);"  delete this comments once you choose your animation*/
+
+    /* From rigth */
+    transform: translate(100%, 0);
+
+    /* from top */
+    /* transform: translate(0, -100%); */
+
+    /* From left */
+    /* transform: translate(-100%, 0); */
+
+    /* From bottom */
+    /* transform: translate(0, 100%); */
 }
 
 .panel.is-active{
