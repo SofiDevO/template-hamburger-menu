@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamburger Menu</title>
     <!-- css librerias -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- FAVICON -->
     <link rel="shortcut icon" href="./assets/svg/2.svg" type="image/x-icon">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
-    
+
     <!-- styles -->
     <link rel="stylesheet" href="./assets/styles/root.css">
     <link rel="stylesheet" href="./assets/styles/hamburger-menu.css">
@@ -21,36 +24,40 @@
     <link rel="stylesheet" href="./assets/styles/contenido-example.css">
 
 </head>
+
 <body>
     <header class="header">
         <!-- Desktop menu -->
         <div class="header__container">
             <div class="header__logo">
                 <a href="index.html" class="logo__link">
-                    <p class="logo__texto">SofiDev</p>
+                    <!-- <p class="logo__texto">SofiDev</p> -->
+                    <img src="./assets/img/2_170_41.png" alt="logo sofidev">
                 </a>
             </div>
-        <nav class="header__nav__menu">
-            <ul>
-                <li class="menu__list"><a href="#" class="header__menu-link">Home</a></li>
-                <li class="menu__list"><a href="#" class="header__menu-link">About me</a></li>
-                <li class="menu__list"><a href="#" class="header__menu-link">skills</a></li>
-                <li class="menu__list"><a href="#" class="header__menu-link">Hobbies</a></li>
-                <li class="menu__list"><a href="#" class="header__menu-link">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="header__social__media">
-            <a class="header__icon__link" href="https://www.linkedin.com/in/sofidev/" target="_blank" rel="nofollow no-referrer noopenner">
-                <i class="fa-brands fa-linkedin fa-beat"></i>
-            </a>
-            <a class="header__icon__link" href="https://github.com/SofiDevO/template-hamburger-menu" target="_blank" rel="nofollow no-referrer noopenner">
-                <i class="fa-brands fa-github-alt fa-beat"></i>
-            </a>
-            <a class="header__icon__link" href="#">
-                <i class="fa-solid fa-envelope fa-beat"></i>
-            </a>
+            <nav class="header__nav__menu panel" id="panel">
+                <ul>
+                    <li class="menu__list"><a href="#" class="header__menu-link">Home</a></li>
+                    <li class="menu__list"><a href="#" class="header__menu-link">About me</a></li>
+                    <li class="menu__list"><a href="#" class="header__menu-link">Skills</a></li>
+                    <li class="menu__list"><a href="#" class="header__menu-link">Hobbies</a></li>
+                    <li class="menu__list"><a href="#" class="header__menu-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header__social__media">
+                <a class="header__icon__link" href="https://www.linkedin.com/in/sofidev/" target="_blank"
+                    rel="nofollow no-referrer noopenner">
+                    <i class="fa-brands fa-linkedin fa-beat"></i>
+                </a>
+                <a class="header__icon__link" href="https://github.com/SofiDevO/template-hamburger-menu" target="_blank"
+                    rel="nofollow no-referrer noopenner">
+                    <i class="fa-brands fa-github-alt fa-beat"></i>
+                </a>
+                <a class="header__icon__link" href="#">
+                    <i class="fa-solid fa-envelope fa-beat"></i>
+                </a>
+            </div>
         </div>
-    </div>
 
 
     </header>
@@ -60,59 +67,68 @@
             <span class="hamburger-inner" id="hamburguesa"></span>
         </span>
     </button>
-    <!-- Side panel -->
-    <aside id="panel" class="panel">
-        <nav class="menu-hamburger">
-            <ul>
-                <li class="menu__list__hamburger "><a href="#home" class="header__menu-link hamburger">Home</a></li>
-                <li class="menu__list__hamburger"><a href="#about" class="header__menu-link hamburger">About me</a> </li>
-                <li class="menu__list__hamburger"><a href="#skills" class="header__menu-link hamburger">skills</a></li>
-                <li class="menu__list__hamburger"><a href="#hoobies" class="header__menu-link hamburger">Hobbies</a></li>
-                <li class="menu__list__hamburger"><a href="#contact" class="header__menu-link hamburger">Contact</a></li>
-            </ul>
-        </nav>
-    </aside>
+    <!-- Insert your site content (Main) -->
     <main>
-        <!-- Insert your site content -->
         <section id="home" class="section">
-            <h2 >Home</h2>
+            <h2>Home</h2>
             <div class="texto__example">
-                <p class="contenido__ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus nostrum eum accusantium porro maxime. Atque assumenda temporibus eveniet similique voluptatibus facere, nihil optio illo magni quidem qui, a delectus voluptas?
-                Eveniet ex nam animi impedit! Consequatur aut officiis facere, vitae voluptatem, iure animi fugit recusandae commodi voluptatum aperiam quas ipsum! Rem est atque neque ipsa exercitationem quis excepturi ipsum nam.</p>
+                <p class="contenido__ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+                    nostrum eum accusantium porro maxime. Atque assumenda temporibus eveniet similique voluptatibus
+                    facere, nihil optio illo magni quidem qui, a delectus voluptas?
+                    Eveniet ex nam animi impedit! Consequatur aut officiis facere, vitae voluptatem, iure animi fugit
+                    recusandae commodi voluptatum aperiam quas ipsum! Rem est atque neque ipsa exercitationem quis
+                    excepturi ipsum nam.</p>
             </div>
         </section>
         <section id="about" class="section">
-            <h2 >About me</h2>
+            <h2>About me</h2>
             <div class="texto__example">
-                <p class="contenido__ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus nostrum eum accusantium porro maxime. Atque assumenda temporibus eveniet similique voluptatibus facere, nihil optio illo magni quidem qui, a delectus voluptas?
-                Eveniet ex nam animi impedit! Consequatur aut officiis facere, vitae voluptatem, iure animi fugit recusandae commodi voluptatum aperiam quas ipsum! Rem est atque neque ipsa exercitationem quis excepturi ipsum nam.</p>
+                <p class="contenido__ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+                    nostrum eum accusantium porro maxime. Atque assumenda temporibus eveniet similique voluptatibus
+                    facere, nihil optio illo magni quidem qui, a delectus voluptas?
+                    Eveniet ex nam animi impedit! Consequatur aut officiis facere, vitae voluptatem, iure animi fugit
+                    recusandae commodi voluptatum aperiam quas ipsum! Rem est atque neque ipsa exercitationem quis
+                    excepturi ipsum nam.</p>
             </div>
         </section>
         <section id="skills" class="section">
-            <h2 >Skills</h2>
+            <h2>Skills</h2>
             <div class="texto__example">
-                <p class="contenido__ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus nostrum eum accusantium porro maxime. Atque assumenda temporibus eveniet similique voluptatibus facere, nihil optio illo magni quidem qui, a delectus voluptas?
-                Eveniet ex nam animi impedit! Consequatur aut officiis facere, vitae voluptatem, iure animi fugit recusandae commodi voluptatum aperiam quas ipsum! Rem est atque neque ipsa exercitationem quis excepturi ipsum nam.</p>
+                <p class="contenido__ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+                    nostrum eum accusantium porro maxime. Atque assumenda temporibus eveniet similique voluptatibus
+                    facere, nihil optio illo magni quidem qui, a delectus voluptas?
+                    Eveniet ex nam animi impedit! Consequatur aut officiis facere, vitae voluptatem, iure animi fugit
+                    recusandae commodi voluptatum aperiam quas ipsum! Rem est atque neque ipsa exercitationem quis
+                    excepturi ipsum nam.</p>
             </div>
         </section>
         <section id="hoobies" class="section">
-            <h2 >Hobbies</h2>
+            <h2>Hobbies</h2>
             <div class="texto__example">
-                <p class="contenido__ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus nostrum eum accusantium porro maxime. Atque assumenda temporibus eveniet similique voluptatibus facere, nihil optio illo magni quidem qui, a delectus voluptas?
-                Eveniet ex nam animi impedit! Consequatur aut officiis facere, vitae voluptatem, iure animi fugit recusandae commodi voluptatum aperiam quas ipsum! Rem est atque neque ipsa exercitationem quis excepturi ipsum nam.</p>
+                <p class="contenido__ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+                    nostrum eum accusantium porro maxime. Atque assumenda temporibus eveniet similique voluptatibus
+                    facere, nihil optio illo magni quidem qui, a delectus voluptas?
+                    Eveniet ex nam animi impedit! Consequatur aut officiis facere, vitae voluptatem, iure animi fugit
+                    recusandae commodi voluptatum aperiam quas ipsum! Rem est atque neque ipsa exercitationem quis
+                    excepturi ipsum nam.</p>
             </div>
         </section>
         <section id="contact" class="section">
-            <h2 >Contact</h2>
+            <h2>Contact</h2>
             <div class="texto__example">
-                <p class="contenido__ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus nostrum eum accusantium porro maxime. Atque assumenda temporibus eveniet similique voluptatibus facere, nihil optio illo magni quidem qui, a delectus voluptas?
-                Eveniet ex nam animi impedit! Consequatur aut officiis facere, vitae voluptatem, iure animi fugit recusandae commodi voluptatum aperiam quas ipsum! Rem est atque neque ipsa exercitationem quis excepturi ipsum nam.</p>
+                <p class="contenido__ejemplo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+                    nostrum eum accusantium porro maxime. Atque assumenda temporibus eveniet similique voluptatibus
+                    facere, nihil optio illo magni quidem qui, a delectus voluptas?
+                    Eveniet ex nam animi impedit! Consequatur aut officiis facere, vitae voluptatem, iure animi fugit
+                    recusandae commodi voluptatum aperiam quas ipsum! Rem est atque neque ipsa exercitationem quis
+                    excepturi ipsum nam.</p>
             </div>
         </section>
 
 
     </main>
-                
+
     <script type="module" src="./js/modules.js"></script>
 </body>
+
 </html>

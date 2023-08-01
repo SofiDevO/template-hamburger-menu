@@ -1,29 +1,31 @@
-:root{
-    --main-color:  rgb(242, 242, 242) ;
-    --seccond-color: rgb(0, 0, 0) ;
-    --blue: rgb(48, 189, 250);
-}
-html{
-    /* With this font-size, a "rem" will be equal to 10px */
-    font-size: 62.5%; 
+:root {
+  --main-color: rgb(61, 61, 61);
+  --second-color: rgb(0, 0, 0);
+  --blue: rgb(10, 102, 141);
 }
 
-*{
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+html {
+  /* With this font-size, a "rem" will be equal to 10px */
+  font-size: 62.5%;
 }
 
-body{
-    margin: 0;
-    overflow-x: hidden;
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    
-}
-a{
-    text-decoration: none;
+* {
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-li{
-    list-style: none;
+body {
+  margin: 0;
+  overflow-x: hidden;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
 }

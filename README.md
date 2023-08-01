@@ -1,5 +1,4 @@
 # template-hamburger-menu
-![image](./assets/img/2_170_40.png)
 Template to implement hamburger menu in your site. The code is full responsive.
 
 ## You can just customize  it as you want 💙
@@ -17,3 +16,5 @@ Template to implement hamburger menu in your site. The code is full responsive.
 ![image](https://github.com/SofiDevO/template-hamburger-menu/assets/102200061/93fb8069-b103-469f-b725-178b4b88d9a5)
 ![image](https://github.com/SofiDevO/template-hamburger-menu/assets/102200061/f6da4da7-9750-4019-ac51-ea4f6d001178)
 
+
+![image](./assets/img/2_170_40.png)
