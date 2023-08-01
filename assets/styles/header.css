@@ -113,9 +113,6 @@
         display: flex;
         width: 100%;
     }
-    .panel-btn{
-        display: block;
-    }
     .header__nav__menu{
         display: none;
     }

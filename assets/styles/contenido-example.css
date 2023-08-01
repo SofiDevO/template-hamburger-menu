@@ -1,0 +1,17 @@
+.section{
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.section h2{
+    font-size: 5rem;
+}
+.texto__example{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
