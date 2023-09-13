@@ -1,59 +1,56 @@
 /* Menu hamburguesa */
-.panel-btn{
+.panel-btn {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .panel-btn {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     z-index: 999;
     bottom: 1vh;
     right: 2vw;
     width: 6rem;
     height: 6rem;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 50%;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
-    border-radius: 50%;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    border: solid;
-    border-color: rgb(0, 0, 0);
-}
-.panel{
+  }
+
+  .panel {
     position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+    text-align: center;
     z-index: 997;
     top: 0;
-    bottom: 0;
-    left: 0;
+    /* left: 0;
+      bottom: 0; */
     right: 0;
-    width: 100%;
-    display: flex;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(0, 0, 0, 0.37)
+    );
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    justify-content: center;
-    align-items: center;
-    transition: transform .3s ease;
-   
-/* You can choose the animation  by changing for one of these, ex. "transform: translate(100%, 0);"  delete this comments once you choose your animation*/
-
-    /* From rigth */
+    /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); */
+    transition: transform 0.3s ease;
     transform: translate(100%, 0);
-
-    /* from top */
     /* transform: translate(0, -100%); */
-
-    /* From left */
     /* transform: translate(-100%, 0); */
-
-    /* From bottom */
     /* transform: translate(0, 100%); */
-}
+  }
 
-.panel.is-active{
-    transform:translate(0, 0);
+  .panel.is-active {
+    display: flex;
+    align-items: center;
+    transform: translate(0, 0);
+  }
 }
