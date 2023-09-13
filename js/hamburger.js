@@ -17,5 +17,5 @@ export default function hamburgerMenu(panelBtn, panel, menuLink) {
 }
 
 d.addEventListener("DOMContentLoaded", (e) => {
-    hamburgerMenu(".panel-btn", ".header__nav__menu", ".hamburger");
+    hamburgerMenu(".panel-btn ", ".panel", ".header__menu-link");
 })

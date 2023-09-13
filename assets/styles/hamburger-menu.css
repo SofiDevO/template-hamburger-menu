@@ -13,11 +13,13 @@
     z-index: 999;
     bottom: 1vh;
     right: 2vw;
-    width: 6rem;
-    height: 6rem;
+    width: 5.5rem;
+    height: 5.5rem;
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     border: 3px solid rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-radius: 50%;
   }
 
@@ -28,19 +30,12 @@
     text-align: center;
     z-index: 997;
     top: 0;
-    /* left: 0;
-      bottom: 0; */
     right: 0;
-    background: linear-gradient(
-      135deg,
-      rgba(255, 255, 255, 0.1),
-      rgba(0, 0, 0, 0.37)
-    );
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 3px solid rgb(0, 0, 0);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); */
     transition: transform 0.3s ease;
     transform: translate(100%, 0);
     /* transform: translate(0, -100%); */
